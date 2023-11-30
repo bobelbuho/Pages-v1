@@ -1,0 +1,23 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --barre-de-recherche-font-family: "NovaRound-Book", Helvetica;
+  --barre-de-recherche-font-size: 24px;
+  --barre-de-recherche-font-style: normal;
+  --barre-de-recherche-font-weight: 400;
+  --barre-de-recherche-letter-spacing: 0px;
+  --barre-de-recherche-line-height: normal;
+  --navbar-font-family: "Inter-ExtraLight", Helvetica;
+  --navbar-font-size: 20px;
+  --navbar-font-style: normal;
+  --navbar-font-weight: 200;
+  --navbar-letter-spacing: 0px;
+  --navbar-line-height: normal;
+}
